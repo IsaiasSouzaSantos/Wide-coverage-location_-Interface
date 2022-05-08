@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@0,400;1,300&family=Montserrat:wght@400;500;600;700;900&family=Nunito:wght@500&family=Playfair+Display:ital,wght@0,400;1,500&family=Poppins:wght@400;500;700&family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+    text-align: center;
+}
+
+.link-header {
+    margin-right: 32px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.87px;
+    color: #17233D;
+    cursor: pointer;
+
+}
+
+.login-link {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 24px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+img {
+    margin: 123px 0 0 123px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    width: 700px;
+    margin-left: 97px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    letter-spacing: 0.59px;
+    color: #161A49;
+    margin-bottom: 47px;
+    text-align: center;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 33px;
+    color: #4B505A;
+    margin-bottom: 55px;
+}
+
+.learn-more {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+
+    header {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    button {
+        display: none;
+    }
+
+    img {
+        width: 90%;
+        margin: auto;
+        margin-left: 5%;
+        margin-top: 20%;
+    }
+
+    section {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    p{
+        font-size:1rem;
+        margin-top:5%;
+    }
+
+    h1 {
+        width: 50%;
+        font-size: 20px;
+        margin: auto;
+
+    }
+}
